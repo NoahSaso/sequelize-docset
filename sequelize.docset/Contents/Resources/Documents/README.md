@@ -23,7 +23,4 @@ wget \
 
 # Create docset (ensuring dashing.json is present)
 dashing build sequelize
-
-# Compress if desired
-tar --exclude='.DS_Store' -cvzf sequelize.tgz sequelize.docset
 ```

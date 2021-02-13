@@ -1,0 +1,35 @@
+{
+  "name": "Sequelize",
+  "package": "sequelize",
+  "index": "sequelize.org/identifiers.html",
+  "selectors": {
+    "h1[data-ice='name']": {
+      "type": "Class",
+      "matchpath": "sequelize.org/class/lib/.*\\.html"
+    },
+    "div[data-ice='staticMethodDetails'] > div[data-ice='detail'] > h3 > span[data-ice='name']": {
+      "type": "Function",
+      "matchpath": "sequelize.org/class/lib/.*\\.html"
+    },
+    "div[data-ice='memberDetails'] > div[data-ice='detail'] > h3 > span[data-ice='name']": {
+      "type": "Attribute",
+      "matchpath": "sequelize.org/class/lib/.*\\.html"
+    },
+    "div[data-ice='methodDetails'] > div[data-ice='detail'] > h3 > span[data-ice='name']": {
+      "type": "Method",
+      "matchpath": "sequelize.org/class/lib/.*\\.html"
+    },
+    "div[data-ice='details'] > div[data-ice='detail'] > h3 > span[data-ice='name']": {
+      "type": "Variable",
+      "matchpath": "sequelize.org/variable/index.html"
+    },
+    "div[data-ice='content'] > div.detail > h1[data-ice='name']": {
+      "type": "Constant",
+      "matchpath": "sequelize.org/class/lib/data-types.js~.*\\.html",
+      "regexp": "(.*)",
+      "replacement": "DataTypes.$1"
+    }
+  },
+  "icon32x32": "icon@2x.png",
+  "allowJS": true
+}
